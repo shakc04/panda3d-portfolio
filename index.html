@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sakthi Chandramohan — Panda3D work</title>
+  <meta name="description" content="Real-time 3D tools and rendered environments built with Panda3D and Python.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Sakthi Chandramohan</h1>
+      <p class="tagline">Real-time 3D tools and rendered environments, built with Panda3D and Python.</p>
+      <p class="intro">
+        Two projects that show how I work in a 3D engine from the code up: one is
+        a scene editor I built to place, transform, and light objects by hand, and
+        the other is a rendered station interior that lights and powers up under a
+        cinematic camera. Both run on a clean checkout and the whole pipeline is in
+        the source.
+      </p>
+      <p class="links">
+        <a href="https://github.com/shakc04">GitHub</a>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="project">
+      <div class="shot">
+        <img src="assets/forge-overview.png" alt="The Forge scene editor with an object selected"
+             onerror="this.classList.add('missing'); this.alt='Screenshot coming soon';">
+      </div>
+      <div class="copy">
+        <h2>Forge</h2>
+        <p class="sub">A 3D scene editor built in Panda3D</p>
+        <p>
+          Forge is a working scene editor. You load models into a viewport, select
+          them with a click, move and rotate and scale them with on-screen handles,
+          edit their properties in an inspector, and save the result to a JSON
+          scene that loads back exactly. Every change runs through an undo stack.
+          It is the kind of tool a 3D artist uses without thinking about, rebuilt
+          so the whole thing is visible in the code.
+        </p>
+        <ul class="tech">
+          <li>Ray-based picking</li>
+          <li>Move / rotate / scale gizmos</li>
+          <li>DirectGUI panels</li>
+          <li>Undo/redo command stack</li>
+          <li>JSON scene format</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/shakc04/forge-editor">View on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="project">
+      <div class="shot">
+        <img src="assets/aurora-overview.png" alt="The Aurora Station interior, powered and lit"
+             onerror="this.classList.add('missing'); this.alt='Screenshot coming soon';">
+      </div>
+      <div class="copy">
+        <h2>Aurora Station</h2>
+        <p class="sub">A real-time cinematic environment</p>
+        <p>
+          Aurora Station is the interior of an orbital station that starts cold and
+          dormant, then powers up: the ceiling strips come on, the reactor core and
+          console begin to glow, light spills through the window, and a cinematic
+          camera drifts through the room while it happens. The space is assembled
+          from a modular kit, lit with a physically based pipeline, and finished
+          with bloom. You can also fly through it by hand.
+        </p>
+        <ul class="tech">
+          <li>simplepbr lighting</li>
+          <li>Scripted lighting transition</li>
+          <li>Custom GLSL hologram shader</li>
+          <li>Bloom post-processing</li>
+          <li>Cinematic and free-fly cameras</li>
+        </ul>
+        <p class="links">
+          <a href="https://github.com/shakc04/aurora-station">View on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Built with Panda3D and Python. Source on <a href="https://github.com/shakc04">GitHub</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
