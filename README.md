@@ -1,5 +1,7 @@
 # Panda3D portfolio
 
+**Live site: https://shakc04.github.io/panda3d-portfolio/**
+
 A one-page site linking my two Panda3D projects:
 
 - [Forge](https://github.com/shakc04/forge-editor), a 3D scene editor
@@ -14,7 +16,7 @@ The two project shots live in `assets/`:
 - `assets/forge-overview.png`
 - `assets/aurora-overview.png`
 
-Until they are added the page shows a "coming soon" placeholder in each slot.
+If either is missing the page shows a "coming soon" placeholder in its slot.
 
 ## Running locally
 
