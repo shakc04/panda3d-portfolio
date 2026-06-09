@@ -77,7 +77,7 @@ body {
   display: flex;
   color: var(--muted);
   font-style: italic;
-  /* alt text shows centred when the image is absent */
+  /* alt text shows centered when the image is absent */
   object-fit: cover;
 }
 
